@@ -1,0 +1,45 @@
+<div class="main-wrapper">
+    <div class="body">
+
+        <div class="menu">
+            <div class="left">
+                <div>
+                    <h2 style="color: darkblue; margin-left:3rem; font-weight: bold;">CHECK YOUR OWN PROCESS</h2>
+                    <h3 style="color: darkblue; margin-left:20rem; font-weight: bold">within Few minutes</h3>
+                </div>
+                <div class="pic">
+                    <img src="../../assets/images/p1.png" class="img1">
+                </div>
+            </div>
+
+            <div class="card">
+            </div>
+
+            <div class="right">
+
+                <div style="margin-top: 1rem;">
+                    <label style="margin-right:2rem; font-size:20px; font-weight: bold;">User name</label>
+                    <input type="text" name="username" required [(ngModel)]="username"
+                        style="padding:3px; border-radius:20px; width:250px; padding-left:15px">
+                </div>
+                <div style="margin-top: 1rem;">
+                    <label style="margin-right:2rem; font-size:20px; font-weight: bold">Password</label>
+                    <input type="password" name="password" required [(ngModel)]="password"
+                        style="padding:3px; border-radius:20px; width:250px; padding-left:15px; margin-left:0.6rem">
+                </div>
+
+                <div class="food" style="margin-top: 1rem;">
+                    <input type=checkbox style="cursor: pointer;">
+                    <label style="font-size:17px; margin-left: 0.3rem; font-weight: bold"> Remember me </label>
+                </div>
+
+                <div>
+                    <button type="button" class="logbtn" (click)="submit()"
+                        style="padding:5px; width:130px; margin-top:2rem; font-weight:bold; border-radius:20px; font-size:18px; margin-left:10rem">Login</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

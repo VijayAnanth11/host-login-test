@@ -1,0 +1,57 @@
+.body{
+    background-color: rgb(206, 229, 249);
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.menu{
+    display: flex;
+    padding: 2rem;
+}
+.left{
+    height: 550px;
+    width: 800px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+}
+.right{
+    height: 550px;
+    width: 500px;
+    background-color: rgb(120, 217, 241);
+    margin-left: 3rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    border-radius: 20px;
+    box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 1px -1px 30px 3px rgba(0, 0, 0, 0.39);
+}
+.card{
+    background-color: darkblue;
+    margin-left: 3rem;
+}
+.pic{
+    width: 730px;
+    background-color: white;
+    height: 390px;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+.img1{
+    height: 100%; 
+    width: 100%;   
+    border-radius: 15px;
+}
+.logbtn{
+    background-color:darkblue; 
+    color: white;
+}
+.logbtn:hover{
+    background-color: rgb(7, 7, 193);
+    color: white;
+}
